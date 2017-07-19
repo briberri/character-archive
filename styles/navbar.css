@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Rasa');
+sidebar {
+    float: left;
+    width: 20%;
+    position: fixed;
+}
+
+.navbar {
+    background-color: #7192BF;
+    height: 91vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0%;
+    padding: 10%;
+}
+
+.navbar li {
+    list-style-type: none;
+    color: #F5C8F2;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Bad Script', cursive;
+    padding: 8%;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.navbar a:hover {
+    background-color: #9F4777;
+    color: white;
+}
